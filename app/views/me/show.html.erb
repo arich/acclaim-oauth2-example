@@ -44,12 +44,13 @@
               <div class="row">
           <%end%>
 
-          <div class="span4 col-md-3 col-xs-6">
-            <div class="pull-right">
+          <div class="span3 col-md-3 col-xs-6">
+            <div>
                 <%= badge['badge_template']['name'] %>
+                <blockquote class="break_word"><%= badge['badge_template']['description'] %></blockquote>
                 <br>
             </div>
-            <div class="pull-left">
+            <div class>
                 <img src="<%= badge['badge_template']['image_url'] %>" height = "50" width ="50"/> <br>
             </div>
             </div>
