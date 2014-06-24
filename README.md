@@ -1,5 +1,3 @@
-== README
-
 This project uses the omniauth-acclaim gem residing at https://github.com/brentkastner/omniauth-acclaim.
 
 ## Installation
