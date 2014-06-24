@@ -2,10 +2,12 @@ This project uses the omniauth-acclaim gem residing at https://github.com/brentk
 
 ## Installation
 
-  $ git clone git@github.com:brentkastner/acclaim-oauth2-example.git
-  $ rake db:create
-  $ rake db:migrate
-  $ ACCLAIM_ID=<app_id> ACCLAIM_SECRET=<acclaim_secret> rails s
+    $ git clone git@github.com:brentkastner/acclaim-oauth2-example.git
+    $ rake db:create
+    $ rake db:migrate
+    $ ACCLAIM_ID=<app_id> ACCLAIM_SECRET=<acclaim_secret> rails s
+    
+You should then be able to go to http://localhost:3000/
 
 ## Contributing
 
