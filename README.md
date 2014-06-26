@@ -1,5 +1,7 @@
 This project uses the omniauth-acclaim gem residing at https://github.com/brentkastner/omniauth-acclaim.
 
+See it in action @ https://acclaim-oauth.herokuapp.com
+
 ## Installation
 
     $ git clone git@github.com:brentkastner/acclaim-oauth2-example.git
@@ -12,7 +14,7 @@ You should then be able to go to http://localhost:3000/
 
 ## Contributing
 
-1. Fork it ( http://github.com/brentkastner/omniauth-acclaim/fork )
+1. Fork it ( http://github.com/brentkastner/acclaim-oauth2-example/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
