@@ -6,7 +6,7 @@ class MeController < ApplicationController
     @user = current_user
     access_token = return_access_token
     @user_info = JSON.parse(access_token.get('/oauth/v1/users/self').body)
-    @badges = JSON.parse(access_token.get('oauth/v1/users/self/badges').body)
+    @badges = JSON.parse(access_token.get('/oauth/v1/users/self/badges').body)
   end
 
   def accept
