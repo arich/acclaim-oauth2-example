@@ -255,6 +255,6 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   require 'omniauth-linkedin'
   config.omniauth :linkedin, "dqvdnkohtrwi", "6YDhfCPi98GuQAec"
-  config.omniauth :acclaim, Rails.application.config.application_providers.acclaim.client_id, Rails.application.config.application_providers.acclaim.client_secret, :client_options =>  {:site => 'https://jefferson-staging.herokuapp.com'}
+  config.omniauth :acclaim, Rails.application.config.application_providers.acclaim.client_id, Rails.application.config.application_providers.acclaim.client_secret
 
 end
